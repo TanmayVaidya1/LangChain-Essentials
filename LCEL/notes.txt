@@ -1,0 +1,31 @@
+LCEL = LangChain Expression Language
+
+It lets you connect components like this:
+
+Prompt → Model → Output Parser
+
+Using:
+
+|
+
+This pipe operator is the heart of modern LangChain.
+
+🔵 OLD WAY (What You Did Before)
+
+prompt = template.format(topic="LangChain")
+response = llm.invoke(prompt)
+print(response.content)
+
+Works ✅
+But not modular ❌
+
+
+🟢 NEW WAY (LCEL Style)
+
+chain = template | llm
+response = chain.invoke({"topic": "LangChain"})
+print(response.content)
+
+Cleaner
+Scalable
+Professional
