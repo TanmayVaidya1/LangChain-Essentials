@@ -16,6 +16,8 @@ LangChain-Essentials/
 │   └── message.py             # Message handling
 ├── LCEL/                      # LangChain Expression Language
 │   ├── LCEL_Chain.py          # LCEL chain implementations
+│   ├── Sequential_Chain.py    # Sequential chain patterns
+│   ├── Simple_Sequential_Chain.py # Simple sequential chain examples
 │   └── notes.txt              # LCEL concepts and notes
 ├── OutputParser/              # Output parsing strategies
 │   ├── CommaSeparatedList.py  # Comma-separated list parser
@@ -103,6 +105,12 @@ python OutputParser/JsonOutputParser.py
 3. Study `LCEL/` for building composable chains
 4. Implement `ChatModel/` for interactive applications
 5. Integrate `RAG/` for knowledge-augmented responses
+
+## Changelog
+
+### February 26, 2026
+- Added `Sequential_Chain.py` - Sequential chain pattern implementation in LCEL
+- Added `Simple_Sequential_Chain.py` - Simple sequential chain examples
 
 ## Notes
 
