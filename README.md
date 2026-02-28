@@ -11,6 +11,8 @@ This project systematically covers the essential building blocks of LangChain, i
 ```
 LangChain-Essentials/
 ├── env.py                      # Environment configuration
+├── Agents/                    # Agent examples and utilities
+│   └── wikipedia.py           # Wikipedia querying agent
 ├── ChatModel/                  # Chat model implementations
 │   ├── app.py                 # Chat application entry point
 │   └── message.py             # Message handling
@@ -34,6 +36,9 @@ LangChain-Essentials/
 ```
 
 ## Components
+
+### Agents
+Examples of agents that combine tools and LLMs for reasoning and action, such as a Wikipedia query agent.
 
 ### ChatModel
 Implementations of chat-based LLM interactions, including message formatting and conversation management.
