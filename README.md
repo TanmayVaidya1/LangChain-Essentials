@@ -31,6 +31,9 @@ LangChain-Essentials/
 ├── PromptTemplate/            # Prompt engineering
 │   ├── BasicPromptTemplate.py # Basic prompt templates
 │   └── ChatPromptTemplate.py  # Chat-specific prompts
+├── Memory/                    # Memory and conversational examples
+│   ├── 01_Conversational_Buffer_Memory.py # Buffer memory example
+│   └── 02_Conversation_Chain.py           # Conversation chain example
 └── RAG/                       # Retrieval-Augmented Generation
     ├── data.txt               # Sample data for RAG
     └── loadSplit.py           # Document loading and splitting
@@ -71,6 +74,8 @@ Retrieval-Augmented Generation implementation:
 - Python 3.8+
 - LangChain library
 - Required API keys (OpenAI, etc.) in environment variables
+
+> Use `.env.example` as a template for your own `.env` file with API keys and other settings.
 
 ### Installation
 
@@ -120,6 +125,7 @@ python OutputParser/JsonOutputParser.py
 
 ### March 3, 2026
 - Updated project structure in README to reflect new agent files and general cleanup
+- Added Memory folder structure and env.example mention
 - Revised overview and descriptions for clarity
 
 ## Notes
