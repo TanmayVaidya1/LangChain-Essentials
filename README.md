@@ -12,7 +12,8 @@ This project systematically covers the essential building blocks of LangChain, i
 LangChain-Essentials/
 ├── env.py                      # Environment configuration
 ├── Agents/                    # Agent examples and utilities
-│   └── wikipedia.py           # Wikipedia querying agent
+│   ├── search_agent.py        # Generic search agent example
+│   └── wiki_agent.py          # Wikipedia querying agent
 ├── ChatModel/                  # Chat model implementations
 │   ├── app.py                 # Chat application entry point
 │   └── message.py             # Message handling
@@ -116,6 +117,10 @@ python OutputParser/JsonOutputParser.py
 ### February 26, 2026
 - Added `Sequential_Chain.py` - Sequential chain pattern implementation in LCEL
 - Added `Simple_Sequential_Chain.py` - Simple sequential chain examples
+
+### March 3, 2026
+- Updated project structure in README to reflect new agent files and general cleanup
+- Revised overview and descriptions for clarity
 
 ## Notes
 
